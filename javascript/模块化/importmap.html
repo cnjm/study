@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="importmap">
+        {
+        "imports": {
+          "dayjs": "https://cdn.skypack.dev/dayjs@1.10.7",
+          "react": "https://cdn.skypack.dev/react@17.0.1"
+        }
+      }
+    </script>
+    <script type="module">
+        import dayjs from 'dayjs';
+        import react from 'react';
+        console.log(react)
+        console.log(dayjs('2019-01-25').format('YYYY-MM-DDTHH:mm:ssZ[Z]'),'-----------');
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
